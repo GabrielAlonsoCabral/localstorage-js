@@ -1,0 +1,27 @@
+{
+  "name": "@gabrielalonsocabral/localstorage-js",
+  "version": "1.0.6",
+  "description": "Library developed for localStorage purporses in javascript applications.",
+  "main": "dist/index.js",
+  "types": "src/types/types.d.ts",
+  "repository": "https://github.com/GabrielAlonsoCabral/localstorage-js",
+  "author": "Gabriel Cabral",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc",
+    "lint": "eslint src/**/*.ts",
+    "prepublish": "tsc",
+    "publish": "npm publish --access=public"
+  },
+  "devDependencies": {
+    "typescript": "^5.1.6"
+  },
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^6.1.0",
+    "@typescript-eslint/parser": "^6.1.0",
+    "eslint": "^8.45.0"
+  },
+  "peerDependencies": {
+    "dayjs": "^1.11.9"
+  }
+}
